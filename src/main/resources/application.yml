@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:./db/student
+    driverClassName: org.h2.Driver
+    username: user
+    password: password
+  sql:
+    init:
+      mode: always
